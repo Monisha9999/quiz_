@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+  list-style: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #F0E68C;
+  color: #A67C5B;
+}
+
+.card-container {
+  background-color: #FFFDD0;
+  padding: 24px 30px;
+  border-radius: 8px;
+  width: 500px;
+}
+
+.card-container .header {
+  margin-bottom: 20px;
+}
+
+.card-container .header h1 {
+  font-size: 24px;
+
+}
+
+.card-container .header p {
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #A67C5B;
+  margin: 7px;
+}
+
+.card-container .questions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-container .questions li {
+  background-color: blanchedalmond;
+  padding: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button {
+  margin-top: 20px;
+  padding: 14px 22px;
+  border: transparent;
+  border-radius: 8px;
+  background-color: brown;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.correct {
+  border: 1px solid #A67C5B;
+  color: #A67C5B;
+}
+
+.incorrect {
+  border: 1px solid tomato;
+  color: tomato
+}
